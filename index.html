@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="cursor h-16 w-16 absolute z-10 rounded-full ">
+        <h1 class="text-lg font-normal font-['gilroy'] ">click</h1>
+        <div class="overlay absolute h-16 w-16 absolute z-30"></div>
+    </div>
+    <div class="loder fixed  z-50  bg-black h-screen w-full flex items-center justify-center">
+        <h1 id="h1" class="overflow-hidden text-white text-7xl font-['kajiro'] ">
+            <span class="a">G</span>
+            <span class="a">L</span>
+            <span class="a">O</span>
+            <span class="a">B</span>
+            <span class="a">A</span>
+            <span class="a">L</span>
+            <span class="a"> </span>
+            <span class="b">E</span>
+            <span class="b">X</span>
+            <span class="b">P</span>
+            <span class="b">R</span>
+            <span class="b">E</span>
+            <span class="b">S</span>
+            <span class="b">S</span>
+        </h1>
+    </div>
+    <div class="main">
+        <div class="counting absolute z-10 bottom-[10%] right-[10%] flex items-center gap-3">
+            <div class="line w-10 h-1 bg-white "></div>
+            <div class="count relative h-10 z-10 w-20 overflow-hidden">
+                <h1 class="font-['kajiro'] tracking-widest text-5xl font-light absolute text-white top-[100%] leading-[1] ">01</h1>
+                <h1 class="font-['kajiro'] tracking-widest text-5xl font-light absolute text-white top-[100%] leading-[1] ">02</h1>
+                <h1 class="font-['kajiro'] tracking-widest text-5xl font-light absolute text-white top-[100%] leading-[1] ">03</h1>
+                <h1 class="font-['kajiro'] tracking-widest text-5xl font-light absolute text-white top-[100%] leading-[1] ">04</h1>
+                <h1 class="font-['kajiro'] tracking-widest text-5xl font-light absolute text-white top-[100%] leading-[1] ">05</h1>
+            </div>
+        </div>
+
+        <div class="page-2 w-full min-h-screen relative text-white ">
+            <div class="nav py-3 px-6 flex justify-between items-center fixed w-full z-20">
+                <div class="nav_left flex items-center gap-2">
+                    <i class=" text-2xl ri-global-line "></i>
+                    <h1 class="font-['kajiro'] text-2xl tracking-wider font-extralight">GLOBE EXPRESSES</h1>
+                </div>
+                <div class="nav_right font-['gilroy'] flex gap-8 uppercase font-semibold text-[14px] items-center">
+                    <h1 class="cursor-pointer live relative">Home</h1>
+                    <h1 class="cursor-pointer">Millinous</h1>
+                    <h1 class="cursor-pointer">internationls</h1>
+                    <h1 class="cursor-pointer">flights</h1>
+                    <h1 class="cursor-pointer">others</h1>
+                    <h1 class="cursor-pointer">contact</h1>
+                    <i class="ri-search-2-line cursor-pointer"></i>
+                    <i class="ri-user-line cursor-pointer"></i>
+                </div>
+            </div>
+
+            <div class="places_name h-screen w-[40%] pl-20 flex flex-col justify-center gap-3 absolute z-10 ">
+                <div class="h-1 w-5 bg-white "></div>
+                <div class="h3 h-6 overflow-hidden relative">
+                    <h3 class="font-['gilroy'] text-xl leading-[1.2] absolute top-[100%]">Switzerland Alps</h3>
+                    <h3 class="font-['gilroy'] text-xl leading-[1.2] absolute top-[100%]">Japan Alps</h3>
+                    <h3 class="font-['gilroy'] text-xl leading-[1.2] absolute top-[100%]">Sahara Desert - Morocco</h3>
+                    <h3 class="font-['gilroy'] text-xl leading-[1.2] absolute top-[100%]">Sierra Nevada - United State
+                    </h3>
+                    <h3 class="font-['gilroy'] text-xl leading-[1.2] absolute top-[100%]">Tarifa - Spain</h3>
+                </div>
+
+                <div class="h1  leading-[0.88] h-[13vh] overflow-hidden relative">
+                    <h1 class="font-['kajiro'] text-[8vw] uppercase absolute top-[100%]">saint</h1>
+                    <h1 class="font-['kajiro'] text-[8vw] uppercase absolute top-[100%]">nagano</h1>
+                    <h1 class="font-['kajiro'] text-[8vw] uppercase absolute top-[100%]">marrakech</h1>
+                    <h1 class="font-['kajiro'] text-[8vw] uppercase absolute top-[100%]">yosemite</h1>
+                    <h1 class="font-['kajiro'] text-[8vw] uppercase absolute top-[100%]">los lances</h1>
+                </div>
+                <div class="h2 leading-[0.88] h-[13vh] overflow-hidden relative">
+                    <h1 class="font-['kajiro'] text-[8vw] uppercase absolute top-[100%]">antonien</h1>
+                    <h1 class="font-['kajiro'] text-[8vw] uppercase absolute top-[100%]">prefecture</h1>
+                    <h1 class="font-['kajiro'] text-[8vw] uppercase absolute top-[100%]">merazouga</h1>
+                    <h1 class="font-['kajiro'] text-[8vw] uppercase absolute top-[100%]">national park</h1>
+                    <h1 class="font-['kajiro'] text-[8vw] uppercase absolute top-[100%]">beach</h1>
+                </div>
+
+
+                <p class="text-sm font-semibold font-['gilroy']">Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Voluptates tenetur dolores porro sapiente animi perspiciatis itaque inventore obcaecati
+                    quibusdam molestias?</p>
+
+                <div class="archive ">
+                    <i class="ri-bookmark-fill  p-2 rounded-full bg-yellow-300 mr-4"></i>
+                    <button class="font-['gilroy'] border px-5 py-2 rounded-full bg-transparent">Discover
+                        Location</button>
+                </div>
+            </div>
+
+            <div class="container relative  w-[100vw]  h-[100vh] bg-[#f5f5f5] ">
+                <div class="slide">
+
+                    <div class="item w-[200px] h-[300px] absolute top-1/2 -translate-x-0 -translate-y-1/2 rounded-xl drop-shadow-[0_35px_35px_#505050] bg-center bg-cover inline-block duration-500"
+                        style="background-image: url(https://images.unsplash.com/photo-1492305175278-3b3afaa2f31f?q=80&w=2031&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
+                    </div>
+                    <div class="item w-[200px] h-[300px] absolute top-1/2 -translate-x-0 -translate-y-1/2 rounded-xl drop-shadow-[0_35px_35px_#505050] bg-center bg-cover inline-block duration-500"
+                        style="background-image: url(https://images.unsplash.com/photo-1482784160316-6eb046863ece?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
+                    </div>
+
+                    <div class="item w-[200px] h-[300px] absolute top-1/2 -translate-x-0 -translate-y-1/2 rounded-xl drop-shadow-[0_35px_35px_#505050] bg-center bg-cover inline-block duration-500"
+                        style="background-image: url(https://images.unsplash.com/photo-1522623349500-de37a56ea2a5?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
+                    </div>
+
+                    <div class="item w-[200px] h-[300px] absolute top-1/2 -translate-x-0 -translate-y-1/2 rounded-xl drop-shadow-[0_35px_35px_#505050] bg-center bg-cover inline-block duration-500"
+                        style="background-image: url(https://images.unsplash.com/photo-1613169620329-6785c004d900?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
+                    </div>
+
+                    <div class="item w-[200px] h-[300px] absolute top-1/2 -translate-x-0 -translate-y-1/2 rounded-xl drop-shadow-[0_35px_35px_#505050] bg-center bg-cover inline-block duration-500"
+                        style="background-image: url(https://images.unsplash.com/photo-1465189684280-6a8fa9b19a7a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
