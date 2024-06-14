@@ -19,7 +19,7 @@ function loder(){
   },"a")
 
   tl.to(".loder",{
-      y:-800,
+      y:-1000,
       duration:.5,
       delay:0.5
   })
